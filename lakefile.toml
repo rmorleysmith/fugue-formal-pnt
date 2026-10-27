@@ -35,7 +35,8 @@ rev = "3d425859e73fcfbef85b9638c2a91708ef4a22d4"
 
 [[require]]
 name = "Formal"
-path = "../Formal"
+git = "https://github.com/rmorleysmith/fugue-formal.git"
+rev = "8f5ceac903d1d8d89e1ee2501e51c88474fb6174"
 
 [[require]]
 name = "mathlib"

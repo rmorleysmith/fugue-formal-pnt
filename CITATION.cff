@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite this repository and the Lean name of the result you use."
+type: software
+title: "Ingham's theorem in Lean: zero-free regions of ζ and the error term in ψ(x)"
+abstract: >-
+  A machine-checked proof, in Lean 4 with Mathlib and PrimeNumberTheoremAnd, of Ingham's theorem
+  in both directions: for 1/2 ≤ θ < 1, the Riemann zeta function has no zeros with real part
+  greater than θ exactly when ψ(x) = x + O(x^{θ+δ}) for every δ > 0. Corollaries: the Riemann
+  hypothesis is equivalent to a square-root error term, and a zero-free region Re s > 7/8 is
+  equivalent to ψ(x) = x + O(x^{7/8+δ}). No sorry; only Lean's standard axioms.
+authors:
+  - family-names: Morley-Smith
+    given-names: Richard
+repository-code: "https://github.com/rmorleysmith/fugue-formal-pnt"
+license: Apache-2.0
+version: 1.0.0
+date-released: 2026-10-27
+keywords:
+  - Lean 4
+  - Mathlib
+  - formal verification
+  - prime number theorem
+  - Riemann zeta function
+  - Ingham's theorem
