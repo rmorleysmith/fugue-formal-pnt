@@ -2,6 +2,7 @@
 
 [![build](https://github.com/rmorleysmith/fugue-formal-pnt/actions/workflows/build.yml/badge.svg)](https://github.com/rmorleysmith/fugue-formal-pnt/actions/workflows/build.yml)
 [![licence: Apache-2.0](https://img.shields.io/badge/licence-Apache--2.0-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/1435655367.svg)](https://doi.org/10.5281/zenodo.23695021)
 
 A machine-checked proof of **Ingham's theorem** in both directions: for `½ ≤ θ < 1`, the Riemann
 zeta function has no zeros with real part greater than `θ` exactly when the Chebyshev function
@@ -25,8 +26,10 @@ lake env lean Audit.lean     # 11 theorems, all [propext, Classical.choice, Quot
 
 Versions are pinned to those of OpenAI's published proof (Lean `v4.34.1`, Mathlib `d13f23b`,
 PrimeNumberTheoremAnd `c39a751`), so the hypothesis can later be discharged by that proof without
-a version mismatch. Cite with GitHub's *Cite this repository* button ([`CITATION.cff`](CITATION.cff))
-and the Lean name of the result.
+a version mismatch. Cite the release and the Lean name of the result: v1.0.0 is
+[10.5281/zenodo.23695022](https://doi.org/10.5281/zenodo.23695022), every version
+[10.5281/zenodo.23695021](https://doi.org/10.5281/zenodo.23695021); GitHub's *Cite this repository*
+button gives the full reference ([`CITATION.cff`](CITATION.cff)).
 
 ## How AI was used
 
